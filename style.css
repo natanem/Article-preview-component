@@ -76,7 +76,6 @@ section.description .description__title{
 section.description .user{
     display: grid;
     width: 100%;
-    height: 4rem;
     grid-template-columns: 2.5rem auto 2rem;
     align-items: center;
     grid-template-rows: 1fr;
