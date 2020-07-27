@@ -14,7 +14,7 @@
 
 body{
     font-family: 'Manrope', sans-serif;
-    font-size: 0.81rem;
+    font-size: 16px;
 }
 
 article{
@@ -36,7 +36,7 @@ article .preview__container{
     grid-template-rows: 17.5rem;
     border-radius: .5rem;
     /* overflow: hidden; */
-    box-shadow: 0 0 1.5rem rgba(0, 0, 0, .3);
+    box-shadow: 0 0 1rem rgba(0, 0, 0, .1);
 }
 .preview__container .image{
     display: inline-block;
@@ -55,7 +55,8 @@ section.description{
     height: 100%;
     display: flex;
     border-radius: .5rem;
-    padding: 2.5rem;
+    padding: 2.44rem 2rem 2rem 2rem;
+    margin: 0;
     flex-direction: column;
     align-items: flex-start;
     justify-content: space-between;
@@ -63,23 +64,24 @@ section.description{
     position: relative;
 }
 section.description .description__title{
-    font-size: 1.3rem;
+    font-size: 1.3125rem;
     font-weight: 700;
-    margin-bottom: 1.2rem;
+    margin-bottom: 1rem;
     color: var(--very-dark-grayish-blue);
 }
 .description__text{
-    font-size: .81rem;
-    margin-bottom: 1.5rem;
+    font-size: .8125rem;
+    margin-bottom: 1rem;
     color: var(--desaturated-dark-blue);
 }
 section.description .user{
     display: grid;
     width: 100%;
+    margin-bottom: 1rem;
     grid-template-columns: 2.5rem auto 2rem;
     align-items: center;
     grid-template-rows: 1fr;
-    grid-gap: 1.13rem;
+    grid-column-gap: 1.13rem;
 }
 .user__avatar{
     width: 2.5rem;
@@ -92,10 +94,11 @@ section.description .user{
     width: 100%;
 }
 .user__name{
-   font-size: .8rem;
+    font-size: .8125rem;
+    color: var(--desaturated-dark-blue);
 }
 .posted_date{
-   font-size: .6rem;
+   font-size: .6875rem;
    color: var(--grayish-blue);
 }
 
